@@ -1,5 +1,5 @@
 {
-  "animals": [
+  "animalsArray": [
     {
       "id": "0",
       "name": "Spindle",
@@ -101,58 +101,20 @@
       ]
     },
     {
-      "name": "Charley",
-      "species": "Frenchie",
-      "diet": "omnivore",
-      "personalityTraits": [
-        "insane"
-      ],
+      "name": "Eli",
+      "species": "BURGER",
+      "diet": "carnivore",
+      "personalityTraits": [],
       "id": "10"
     },
     {
-      "name": "Peanut",
-      "species": "Frenchie",
-      "diet": "omnivore",
+      "name": "Eli",
+      "species": "BURGER",
+      "diet": "carnivore",
       "personalityTraits": [
-        "insane"
+        "loving"
       ],
       "id": "11"
-    },
-    {
-      "name": "ACE",
-      "species": "Shark",
-      "diet": "Carnivore",
-      "personalityTraits": [
-        "Dopey"
-      ],
-      "id": "12"
-    },
-    {
-      "name": "ACE",
-      "species": "Shark",
-      "diet": "Carnivore",
-      "personalityTraits": [
-        "Dopey"
-      ],
-      "id": "13"
-    },
-    {
-      "name": "ACE",
-      "species": "Shark",
-      "diet": "Carnivore",
-      "personalityTraits": [
-        "Dop333 sdgfey"
-      ],
-      "id": "14"
-    },
-    {
-      "name": "ACE",
-      "species": "Shark",
-      "diet": "Carnivore",
-      "personalityTraits": [
-        "Dop333 sdgfey"
-      ],
-      "id": "15"
     }
   ]
 }
