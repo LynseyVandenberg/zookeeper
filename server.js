@@ -5,6 +5,8 @@ const path = require('path'); //writes the data to the animals.json file
 const { animals } = require('./data/animals');
 const PORT = process.env.PORT || 3001;
 
+// Middlewear that instructs the server to make certain files steadily avail and not gate it behind the server endpoint
+app.use(express.static('public'));
 // parse incoming string or array data -  It takes incoming POST data and converts it to key/value pairings that can be accessed in the req.body object - extended: true option set inside the method call informs our server that there may be sub-array data nested in it as well, so it needs to look as deep into the POST data as possible to parse all of the data correctly.
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data -  method takes incoming POST data in the form of JSON and parses it into the req.body JavaScript object
